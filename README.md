@@ -1,5 +1,6 @@
 # GAMBAS
 ### Generalised-Hilbert Mamba for Super-resolution of Paediatric Ultra-Low-Field MRI
+**BATCH VERSION** To be run on project level, to loop over all sessions. Generalised-Hilbert Mamba for Super-resolution of Paediatric Ultra-Low-Field MRI. GPU enabled runs will run the GAMBAS model on the input image to generate a super-resolved image. CPU runs will be slower and have slightly degraded performance and is based of a Residual Convolution Network model. The model is based on the U-Net architecture and is trained on a dataset of paediatric ultra-low-field MRI images (3 months - 3 years). Model weights version 2, trained on 215 subjects. 
 
 ## Overview
 
